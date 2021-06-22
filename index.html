@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codeing Quiz</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <button id="score">Vew Highscores</button>
+            <div id="timer">Timer</div>
+        </div>
+    </nav>
+
+    <section class="intro">
+        <h1 id="title">Coding Quiz challenge</h1>
+        <p id="rule">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your scoretime by ten seconds!</p>
+        <button id="start">Start</button>
+    </section>
+
+    <section class="the-quiz">
+        <h1>Question</h1>
+        <p id="question">question</p>
+        <div class="questions">
+            <button id="q1">q1</button>
+            <button id="q2">q2</button>
+            <button id="q3">q3</button>
+            <button id="q4">q4</button>
+        </div>
+    </section>
+    <section class="your-score">
+        <div>
+            <h1>All done!</h1>
+            <p id="player-score">your score: 0</p>
+            <textarea id="name" placeholder="Enter Initials: "></textarea>
+            <button id="submit">Submit</button>
+        </div>
+    </section>
+    <section class="high-scores">
+        <div>
+            <h1>High Scores</h1>
+        </div>
+        <div id="score-board"></div>
+        <button id="back">Go Back</button>
+        <button id="clear">Clear Highscores</button>
+    </section>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
